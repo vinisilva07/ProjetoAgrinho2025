@@ -1,36 +1,14 @@
 body {
-  scroll-behavior: smooth;
-  background-color: #f9f9f9;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  color: #212529;
 }
 
-.hero-section {
-  background: url('https://images.unsplash.com/photo-1580476262794-4514c482df32') no-repeat center center;
-  background-size: cover;
-  height: 60vh;
-  padding-top: 80px;
+h1, h2, h4 {
+  font-weight: 700;
+  color: #14532d;
 }
 
-h2 {
-  color: #145a32;
-  font-weight: bold;
-}
-
-.card {
-  transition: transform 0.3s;
-}
-.card:hover {
-  transform: scale(1.03);
-}
-
-.map-placeholder {
-  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Parana_Municipalities.svg/600px-Parana_Municipalities.svg.png') no-repeat center;
-  background-size: contain;
-  height: 400px;
-  border-radius: 12px;
-  border: 1px solid #ccc;
-}
-
-footer a:hover {
-  text-decoration: none;
-  color: #d0f0c0;
+section h4 {
+  margin-top: 1.5rem;
 }
